@@ -1,0 +1,31 @@
+{
+  "name": "puppeteer_js",
+  "version": "0.0.0",
+  "description": "src",
+  "author": "abcd567",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abcd567/puppeteer_js.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abcd567/puppeteer_js/issues"
+  },
+  "homepage": "https://github.com/abcd567/puppeteer_js#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "pre-commit": "^1.2.2"
+  }
+}
