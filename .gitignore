@@ -73,3 +73,8 @@ obj/
 # test
 test/
 test.js
+
+# 保存本地的图片
+mn/*.png
+mn/*.jpg
+mn/*.gif
